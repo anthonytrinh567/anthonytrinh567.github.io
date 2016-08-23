@@ -1,0 +1,118 @@
+/*********************************************
+                  Font Import
+**********************************************/
+@import 'https://fonts.googleapis.com/css?family=Oxygen';
+
+/*********************************************
+                  General
+**********************************************/
+html, body {
+  width: 100%;
+  font-family: "Oxygen", sans-serif;
+}
+
+li { 
+  list-style: none;
+  display: inline-block;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+
+/*********************************************
+                  Navigation
+**********************************************/
+.topNav {
+  text-align: center;
+  /*background-color: rgb(51, 102, 153);*/
+  padding: 10px 0;
+}
+
+.topNav h2 {
+  font-size: 2vw;
+  letter-spacing: .2em;
+}
+
+.topNav h3 {
+  font-size: 1vw;
+  margin-bottom: 5px;
+}
+
+.topNav h2, .topNav h3 {
+  line-height: 2em;
+  color: #000;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 800px) {
+  .topNav h2 {
+    font-size: 1em;
+  }
+  
+  .topNav h3 {
+    font-size: .8em;
+  }
+}
+
+/*********************************************
+                  About Me
+**********************************************/
+.aboutMe {
+  padding: 0;
+}
+
+.aboutMeInner {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.aboutMe img {
+  margin: 0 auto;
+  border-radius: 100%;
+}
+
+.aboutMe h4 {
+  text-align: center;
+  margin-top: 15px;
+  padding: 15px 0;
+  border-radius: 5px;
+}
+
+.aboutMe p {
+  margin-top: 15px;
+  padding: 15px;
+  line-height: 1.2em;
+}
+
+
+/*********************************************
+                  Projects
+**********************************************/
+.projectList h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.projectList h4 {
+  margin-bottom: 15px;
+}
+
+.projectList li {
+  margin-bottom: 15px;
+  box-shadow: 0;
+  transition: box-shadow .4s;
+  transition: transform .4s;
+  border-radius: 2px;
+  transform: scale(1,1);
+  padding: 10px;
+}
+
+.projectList li:hover {
+  box-shadow: 0 0 3px black;
+  transform: scale(1.01,1.01);
+}
