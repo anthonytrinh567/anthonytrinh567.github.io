@@ -100,6 +100,10 @@ ul {
 
 .projectList h4 {
   margin-bottom: 15px;
+  border: 1px solid black;
+  padding: 5px 0;
+  text-align: center;
+  border-radius: 3px;
 }
 
 .projectList li {
